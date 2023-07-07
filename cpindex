@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>EraVAN</title>
+  <script src="https://kit.fontawesome.com/3eb353c26e.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="/image/erafav.png">
+  <link rel="stylesheet" href="./CSS/header.css" />
+  <link rel="stylesheet" href="./CSS/footer.css" />
+  <link rel="stylesheet" href="./CSS/index.css" />
+ 
+</head>
+
+<body class="BODY">
+ 
+  <div>
+    <div class="head1">
+      <div class="headimg"><img src="./image/logo.png" alt="logo" style="width: 80px" /></div>
+      <div class="eravanhead">EraVAN</div>
+      <div class="phone"><a href="#"> <i class="fa-solid fa-phone fa-fade" style="color: #ffffff;"></i>  &nbsp 7424953939 </a></div>
+      <div class="mail"><a href="#"> <i class="fa-solid fa-envelope fa-bounce" style="color: #ffffff;"></i> <span class="mailshow"> info@eravan.in &nbsp &nbsp</span> </a></div>
+      <!-- <div class="mail">
+        <a href="#"> <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>   info@eravan.in </a>
+      </div> -->
+
+      <div class="place">
+        <a href="#"> <i class="fa-sharp fa-solid fa-location-dot fa-fade" style="color: #ffffff;"></i>&nbspJaipur, Banglore, Pune</a>
+      </div>
+    </div>
+  </div>
+  <!-- second head -->
+  <div>
+   
+  <div class="head2">
+
+      
+        <div class="head2headings1"><a href="index.html">HOME</a></div>
+        <div class="head2headings2"><a href="./HTML/akshayapatra.html">GET AKSHAY-PATRA</a></div>
+        <div class="head2headings"><a href="./HTML/margdarshak.html">MARG-DARSHAK </a></div>
+        <div class="head2headings"><a href="./HTML/marketplace.html">MARKET-PLACE</a></div>
+        <div class="head2headings"><a href="./HTML/pricetrend.html">PRICE TREND</a></div>
+        <div class="head2headings5"><a href="./HTML/register.html">   REGISTER</a></div>
+        <div class="head2headings5"><a href="./HTML/login.html">  &nbsp &nbsp  &nbsp LOGIN</a></div>
+      </div>
+  
+  </div>
+
+  <!-- slide show -->
+  <div>
+    <header class="intro">
+      <div class="intro-slideshow">
+        <img src="./image/farm.jpeg" alt="team">
+        <img src="./image/k3.jpeg" alt="team">
+        <img src="./image/h16.jpeg" alt="team">
+        <img src="./image/h9.jpeg" alt="team">
+
+        <!-- <img src="s9.jpg" alt="team"> -->
+      </div>
+      <div class="intro-header">
+        <h1>Welcome to EraVAN</h1>
+        <p>Providing a one-stop solution</p>
+      </div>
+    </header>
+
+  </div>
+
+
+
+  <div class="index_container">
+
+    <div class="_card">
+      <div class="card_container">
+        <div class="home_heading">ABOUT US</div>
+        <!-- <img src="pic1.png" alt="eravan" style="width: 30px" /> -->
+        <div class="h61">
+          The only ONE-STOP reliable, innovative and optimized solutions provider to
+          the agriculture industry’s problems. The company is specialized in
+          providing sustainable, out-of-the-box integrated and climate-controlled
+          farming system based on Contemporary farming techniques which will make
+          farming a 10 times more profitable and sustainable business. Company also
+          provides a wide range of SAAS based services tailored to meet your needs
+          such as Personalised Marketing insights, 24×7 Agronomic support,
+          End-to-End quality controlled Logistics support system, detailed training
+          programs and courses. And simultaneously setting-up advanced franchises in
+          each district of India, to ensure a continuous supply of top-notch and
+          nutritious exotic vegetables, herbs, fruits, and medicinal crops in the
+          market irrespective of the geographical location, and climatic conditions
+          of that area.
+        </div>
+      </div>
+    </div>
+    <div class="_card">
+      <div class="card_container">
+        <div class="home_heading">Vision</div>
+        <img src="./image/h5.jpeg" alt="eravan" style="width:100%" />
+        <div class="h61">
+          Revolutionizing the whole agriculture sector by nullifying its dependencies on various natural factors like
+          climate, soil fertility, rain, etc. And fulfilling all the needs of humankind by establishing a continuous
+          supply of top-quality, farm-fresh, nutritious food items (vegetables, fruits, herbs, etc.) whichever,
+          whatever, and wherever is needed in the whole
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="_card">
+      <div class="card_container">
+        <div class="home_heading">Mission</div>
+
+        <img src="./image/h12.jpeg" alt="eravan" style="width: 100%;height:100%" />
+        <div class="h61">
+          We are on a mission to change the lives of 1 Million + farmers in India by 2030 and 50 Million farmers
+          globally by 2040 by making farming a sustainable, 10 times more profitable, and professionalized business.
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="index_container">
+      <div class="_card1">
+        <div class="card_container">
+          <!-- <div class="global">
+            Have a barren land ?
+            Now earn 4Lac/Month from it
+          </div> -->
+  
+          <div>
+            <!-- <img src="sellbuy.png" alt="sell" style="width:40vw"> -->
+            <img src="./image/BARREN3.png" alt="eravan" class="card_img" />
+              <button type="button" class="button barren" onclick="window.location.href = '../HTML/marketplace.html';">
+              KNOW MORE
+            </button>
+          </div>
+        </div>
+      </div>
+    <div class="_card1">
+      <div class="card_container">
+        <!-- <div class="global">
+          Use our Global Market Place to sell or buy any exotic vegetable, herbs and fruit.
+        </div> -->
+        <img src="./image/global2.png" alt="eravan" class="card_img" />
+        <div class="onebutton">
+          <button type="button" class="button" onclick="window.location.href = '../HTML/marketplace.html';">
+            I WANT TO BUY
+          </button>
+          <button type="button" class="button" onclick="window.location.href = '../HTML/marketplace.html';">
+            I WANT TO SELL
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+ 
+
+  
+
+
+
+
+</div>
+    <div class="index_container">
+       <div class="_card123">
+        <div class="card_container">
+          <div class="home_heading">Get Your AKSHAY-Patra</div>
+          <div class="h61">
+            A Hi-Tech climate controlled & integrated farming System. Now Grow
+            Anything Anywhere throughout the year
+          </div>
+        </div>
+        <img src="./image/h11.jpeg" alt="eravan" class="card_img" />
+        <button type="button" class="button modern1" onclick="window.location.href = '../HTML/marketplace.html';">KNOW MORE</button>
+      </div>
+
+      <div class="_card123">
+        <div class="card_container">
+          <div class="home_heading">Avail Our MARG-Darshak Services</div>
+          <div class="h61">
+            A one stop solution for all your marketing sales and production
+            related problems
+          </div>
+        </div>
+        <img src="./image/h1.jpeg" class="card_img" alt="eravan"  />
+        <button type="button" class="button modern2" onclick="window.location.href = '../HTML/marketplace.html';">KNOW MORE</button>
+      </div>
+      <div class="_card123">
+        <div class="card_container">
+          <div class="home_heading">Modern Farming</div>
+
+          <div class="h61">
+            Learn everything about modern farming
+            techniques. And Implement it
+            commercialy.
+
+          </div>
+
+        </div>
+        <img src="./image/h4.jpeg" alt="eravan" class="card_img">
+        <button type="button" class="button modern3" onclick="window.location.href = '../HTML/marketplace.html';"> KNOW MORE</button>
+
+      </div>
+    </div>
+  </div>
+  
+  <!--<div class="show_container">-->
+  <!--  Grab this opportunity and shop now-->
+  <!--  <button type="button" class="button" onclick="window.location.href = '../HTML/marketplace.html';">Shop Now</button>-->
+  <!--</div>-->
+  <script>
+    const slideshowImages = document.querySelectorAll(".intro-slideshow img");
+
+    const nextImageDelay = 5000;
+    let currentImageCounter = 0; // setting a variable to keep track of the current image (slide)
+
+    // slideshowImages[currentImageCounter].style.display = "block";
+    slideshowImages[currentImageCounter].style.opacity = 1;
+
+    setInterval(nextImage, nextImageDelay);
+
+    function nextImage() {
+      // slideshowImages[currentImageCounter].style.display = "none";
+      slideshowImages[currentImageCounter].style.opacity = 0;
+
+      currentImageCounter = (currentImageCounter + 1) % slideshowImages.length;
+
+      // slideshowImages[currentImageCounter].style.display = "block";
+      slideshowImages[currentImageCounter].style.opacity = 1;
+    }
+    
+  </script>
+
+
+
+<div>
+  <div class="section">
+    <div class="custom-shape-divider-top-1687338181">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#c3eeb9" fill-opacity="1" d="M0,32L80,42.7C160,53,320,75,480,117.3C640,160,800,224,960,218.7C1120,213,1280,139,1360,101.3L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+          </svg>
+        </div>
+</div>
+
+
+
+<div class="footer">
+    <div class="footer1">
+        <h4>Explore</h4>
+        <div>
+          <div><a href="index.html">HOME</a></div>
+          <div><a href="./HTML/akshayapatra.html">GET AKSHAY-PATRA</a></div>
+          <div><a href="./HTML/margdarshak.html">MARG-DARSHAK </a></div>
+          <div><a href="./HTML/marketplace.html">MARKET-PLACE</a></div>
+          <div><a href="./HTML/buysell.html">   Register</a></div>
+          <div><a href="./HTML/login.html">  Login</a></div>
+
+        </div>
+      </div>
+      <div class="footer2">
+        <h4>Contact</h4>
+        <div>
+          <div><a href="#">+91-7424953939</a></div>
+          <div><a href="#">info@eravan.in</a></div>
+          <div><a href="#">JAIPUR </a></div>
+          <div><a href="#">BENGALURU</a></div>
+          <div><a href="#">PUNE</a></div>
+        </div>
+      </div>
+      <div class="footer3">
+        <div class="indexAddressHead">Company’s Registered Address:</div>
+        <div class="indexAddress">C/O- Manish Sharma, 2nd floor, Shakambhar colony, Ward no. - 18, Phulera, Jaipur, Rajasthan.
+          303338</div>
+      
+    
+        <div class="indexAddressHead">Project/site location:</div>
+        <div class="indexAddress">Survey No.- 21/1, Kamadenu Srinivasa Farm , Hanumanta Sagara, Dasanapura Hobli, Taluk-Bangalore (North), Bangalore (Urban), Karnataka,</div>
+        
+      </div>
+</div>
+<div class="copyright">© Copyright Eravan 2023 | All Rights Reserved</div>
+
+
+</div>
+
+</body>
+
+</html>
